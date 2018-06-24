@@ -17,7 +17,8 @@ See the [Google Provider documentation](https://www.terraform.io/docs/providers/
 
 Steps to create your own infra
 ----------------------
-`Clone the git repository and generate authentication json using the link https://console.cloud.google.com/apis/credentials/serviceaccountkey and rename the file as account.json and move it to current repo`
+`Clone the git repository`
+Generate authentication json using the link https://console.cloud.google.com/apis/credentials/serviceaccountkey and rename the file as account.json and move it to current repo
 `terraform init`
 `terraform plan`
 `terraform apply`
